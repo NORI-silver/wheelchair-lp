@@ -13,7 +13,7 @@ def wrap(m,body):
     crumbs=[("ホーム","/")]+m["crumbs"]
     bc_html=" › ".join(f'<a href="{u}">{n}</a>' for n,u in crumbs[:-1])+(" › " if len(crumbs)>1 else "")+crumbs[-1][0]
     bc_ld={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":BASE+u} for i,(n,u) in enumerate(crumbs)]}
-    art_ld={"@context":"https://schema.org","@type":"Article","headline":m["h1"],"dateModified":m["updated"],"datePublished":m["updated"],"publisher":{"@type":"Organization","name":"SHIOKONBU Wheelchair"},"mainEntityOfPage":BASE+m["path"]}
+    art_ld={"@context":"https://schema.org","@type":"Article","headline":m["h1"],"dateModified":m["updated"],"datePublished":m["updated"],"publisher":{"@type":"Organization","name":"車いす修理ナビ"},"mainEntityOfPage":BASE+m["path"]}
     return f'''<!doctype html>
 <html lang="ja">
 <head>
@@ -27,14 +27,14 @@ def wrap(m,body):
 <meta property="og:title" content="{m["title"]}">
 <meta property="og:description" content="{m["desc"]}">
 <meta property="og:url" content="{BASE}{m["path"]}">
-<meta property="og:site_name" content="SHIOKONBU Wheelchair">
+<meta property="og:site_name" content="車いす修理ナビ">
 <link rel="stylesheet" href="/assets/style.css">
 <script src="/assets/ga.js" defer></script>
 <script type="application/ld+json">{json.dumps(bc_ld,ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(art_ld,ensure_ascii=False)}</script>
 </head>
 <body>
-<header class="site"><div class="wrap"><a href="/">SHIOKONBU Wheelchair｜車いすの出張修理を探す</a></div></header>
+<header class="site"><div class="wrap"><a href="/">車いす修理ナビ｜車いすの出張修理を探す</a></div></header>
 <main class="wrap">
 {f'<nav class="crumbs" aria-label="パンくず">{bc_html}</nav>' if len(crumbs)>1 else ""}
 <h1>{m["h1"]}</h1>
@@ -43,7 +43,7 @@ def wrap(m,body):
 </main>
 <footer class="site"><div class="wrap">
 <p>掲載している事業者の情報は、各社の公式サイトなどで確認した時点のものです。対応可否・料金・来られる日時は、必ず事業者に直接ご確認ください。誤りの訂正は運営までお知らせください。</p>
-<p>SHIOKONBU Wheelchair（wheelchair.shiokonbu.com）</p>
+<p>車いす修理ナビ</p>
 </div></footer>
 </body>
 </html>
