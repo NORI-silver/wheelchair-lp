@@ -154,7 +154,7 @@ def index_page(data):
     body = f'''<div class="answer"><p><strong>お住まいの地域から、自宅まで来てくれる車いす修理業者を探せます。</strong></p>
 <p>いまは東京都・千葉県・神奈川県・埼玉県の業者を掲載しています。地域は順に増やします。</p></div>
 <h2>都道府県・市区町村から探す</h2><ul>{pl}</ul>
-<h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
+<h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/repair/brake/">ブレーキが効かない</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
 '''
     meta = {"path": "/repair/", "title": "車いすの出張修理を地域から探す｜東京・千葉・神奈川・埼玉",
             "desc": "車いす（車椅子）を自宅まで修理に来てくれる業者を、都道府県・市区町村から探せます。出張費・対応する車いす・個人宅対応・営業時間を、各社の公式サイトで確認した日付つきでまとめています。",
