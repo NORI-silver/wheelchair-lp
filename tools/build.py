@@ -19,6 +19,7 @@ def wrap(m,body):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="MmM3OGz9LIPxBOmE4jR8GdP4vACP_FrchZwBLT3W0sM" />
 <title>{m["title"]}</title>
 <meta name="description" content="{m["desc"]}">
 <link rel="canonical" href="{BASE}{m["path"]}">
@@ -28,6 +29,7 @@ def wrap(m,body):
 <meta property="og:url" content="{BASE}{m["path"]}">
 <meta property="og:site_name" content="SHIOKONBU Wheelchair">
 <link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/ga.js" defer></script>
 <script type="application/ld+json">{json.dumps(bc_ld,ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(art_ld,ensure_ascii=False)}</script>
 </head>
