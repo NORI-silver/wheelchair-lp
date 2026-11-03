@@ -1,0 +1,32 @@
+# サイトの公開（GitHub Pages）。main に入ると、このワークフローがサイトを公開する。
+# pet-lp と同じしくみ（標準の公開が「途中」のまま詰まるのを避けるため、同時に1つだけ動かし、あとの公開は順番に待つ）。
+# 使うには、GitHub の Settings → Pages → Build and deployment の Source を「GitHub Actions」にする（1回だけ）。
+name: pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
