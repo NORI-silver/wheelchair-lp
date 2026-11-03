@@ -1,0 +1,173 @@
+"""data/areas.json（wheelchair-db の export_pages.py が書き出す）から地域ページを作る。
+build.py から呼ばれる。中身は公開情報だけ。対応可否・料金・来られる日時は事業者に確認するよう必ず書く。
+"""
+import html
+import json
+import pathlib
+
+E = html.escape
+CONTACT = {"phone": "電話", "web_form": "フォーム", "email": "メール", "fax": "FAX", "line": "LINE"}
+KEY_COND = [("onsite", "出張修理"), ("individual", "個人宅"), ("same_day", "当日対応"), ("weekend", "土日対応"),
+            ("other_store", "他店購入品"), ("any_maker", "メーカー不問")]
+MARK = {"yes": "○", "conditional": "△", "no": "×", None: "要確認", "unknown": "要確認"}
+
+
+def yen(n):
+    return f"{n:,}円"
+
+
+def cap(p, key, code):
+    for c in p[key]:
+        if c["code"] == code:
+            return c["level"]
+    return None
+
+
+def fee_text(p):
+    f = p.get("area_travel_fee")
+    if f and f.get("min") is not None:
+        t = "無料" if f["min"] == 0 and (f["max"] or 0) == 0 else (yen(f["min"]) if f["min"] == f["max"] else f"{yen(f['min'])}〜{yen(f['max'])}")
+        return t + (f"（料金表の区分{E(f['zone'])}）" if f.get("zone") else "")
+    if p.get("travel_fee_notes"):
+        return E(p["travel_fee_notes"][0]) + "（この地域の金額は要確認）"
+    return "公式サイトに記載なし（要確認）"
+
+
+def card(p, local=True):
+    prods = [c["label"] for c in p["products"] if c["level"] == "yes"]
+    reps = [c["label"] for c in p["repairs"] if c["level"] == "yes"]
+    conds = " ／ ".join(f"{lab}{MARK.get(cap(p, 'conditions', code), '要確認')}" for code, lab in KEY_COND)
+    contact = []
+    if p.get("phone"):
+        contact.append(f'<a href="tel:{E(p["phone"].replace("-", ""))}">{E(p["phone"])}</a>')
+    if p.get("website"):
+        contact.append(f'<a href="{E(p["website"])}" rel="nofollow noopener" target="_blank">公式サイト</a>')
+    methods = "・".join(CONTACT.get(m, m) for m in p.get("contact_methods", []))
+    prices = "".join(f"<li>{E(x['item'] or '')}：{yen(x['price_jpy'])}{'（出張費込み）' if x.get('includes_travel') else ''}</li>"
+                     for x in p.get("price_items", [])[:4] if x.get("price_jpy"))
+    src = p["sources"][0]["url"] if p.get("sources") else p.get("website")
+    rows = [
+        ("この地域への出張費" if local else "出張費", fee_text(p)),
+        ("対応する車いす", "、".join(prods) or "要確認"),
+        ("修理内容（記載あり）", "、".join(reps) or "公式サイトに詳しい記載なし"),
+        ("対応条件", conds),
+        ("営業時間", E(p.get("hours_text") or "公式サイトに記載なし")),
+        ("問い合わせ", " ／ ".join(contact) + (f"（{methods}）" if methods else "")),
+    ]
+    if p.get("tax_basis"):
+        rows.insert(1, ("料金の税表示", E(p["tax_basis"])))
+    if p.get("credentials"):
+        rows.append(("資格・認定", E("、".join(p["credentials"]))))
+    body = "".join(f"<tr><th>{k}</th><td>{v}</td></tr>" for k, v in rows)
+    pr = f"<p>公開されている料金の例</p><ul>{prices}</ul>" if prices else ""
+    reason = f'<p class="updated">{E(p["area_reason"])}</p>' if p.get("area_reason") else ""
+    return (f'<section class="provider"><h3>{E(p["name"])}</h3>{reason}<div class="table"><table>{body}</table></div>{pr}'
+            f'<p class="updated">最終確認：{E(p.get("last_verified_at") or "—")}（<a href="{E(src or "")}" rel="nofollow noopener" target="_blank">出典</a>）</p></section>')
+
+
+def city_page(c, all_cities):
+    pref, city = c["prefecture"], c["city"]
+    ps = c["providers"]
+    n_ind = sum(1 for p in ps if cap(p, "conditions", "individual") == "yes")
+    n_elec = sum(1 for p in ps if cap(p, "products", "electric_wheelchair") == "yes")
+    fees = [p["area_travel_fee"]["min"] for p in ps if p.get("area_travel_fee") and p["area_travel_fee"].get("min") is not None]
+    fee_line = ""
+    if fees:
+        fee_line = f"出張費を地域別に公開している業者では、{E(city)}への出張費は{('無料' if min(fees) == 0 else yen(min(fees)))}からです。"
+    names = "、".join(E(p["name"]) for p in ps)
+    neighbors = [x for x in all_cities if x["prefecture"] == pref and x["city"] != city]
+    nb = "".join(f'<li><a href="/repair/{x["pref_slug"]}/{x["city_slug"]}/">{E(x["city"])}の車いす出張修理</a></li>' for x in neighbors)
+    confirm = "".join(f'<li>{E(p["name"])}（{E(p.get("area_reason") or "")}）</li>' for p in c["to_confirm"])
+    offices = "".join(f'<li>{E(o.get("name") or "")}{(" " + E(o["phone"])) if o.get("phone") else ""}</li>' for o in c["municipal_offices"])
+    elec_note = ("電動車いすに対応すると明記しているのは" + f"{n_elec}社です。" if n_elec else
+                 "この中に電動車いすへの対応を明記している業者はありません。電動の方は<a href=\"/repair/electric/\">電動車いすの修理</a>をご覧ください。")
+    body = f'''<div class="answer">
+<p><strong>{E(city)}に出張して車いすを修理してくれる業者は、確認できた範囲で{len(ps)}社です。</strong></p>
+<p>{names}。うち個人宅への対応を明記しているのは{n_ind}社です。{fee_line}{elec_note}</p>
+</div>
+<p class="note">各社の公式サイトで確認した情報です（最終確認日は各社の欄）。対応できるか、料金、来られる日時は、必ず電話などで直接確かめてください。</p>
+
+<h2>{E(city)}に来てくれる車いす出張修理業者</h2>
+{"".join(card(p) for p in ps)}
+
+<h2>ほかに対応の可能性がある業者（要確認）</h2>
+<p>対応地域や出張の可否が公式サイトだけでは確かめきれなかった業者です。</p>
+<ul>{confirm or "<li>現在ありません</li>"}</ul>
+
+<h2>介護保険・補装具の車いすを使っている方へ</h2>
+<p>介護保険でレンタルしている車いすは、まずレンタル事業者かケアマネジャーに連絡してください。障害者手帳の補装具で作った車いすは、修理も補装具費の対象なので、{E(city)}の障害福祉の窓口に先に相談するのが確実です。くわしくは<a href="/guide/broken-wheelchair/">車いすが壊れたときの依頼先</a>へ。</p>
+{f"<ul>{offices}</ul>" if offices else ""}
+
+<h2>料金の目安</h2>
+<p>パンク修理は出張費込みで片側6,000円前後、タイヤとチューブの交換は1台1.5〜2万円台が目安です。業者ごとの比較は<a href="/repair/puncture/">パンク修理・タイヤ交換の料金相場</a>にまとめています。</p>
+
+<h2>近くの地域から探す</h2>
+<ul>{nb}<li><a href="/repair/{c["pref_slug"]}/">{E(pref)}の車いす出張修理</a></li></ul>
+'''
+    meta = {"path": f"/repair/{c['pref_slug']}/{c['city_slug']}/",
+            "title": f"{city}の車いす出張修理｜自宅に来てくれる{len(ps)}社と出張費",
+            "desc": f"{city}で車いす（車椅子）を自宅まで修理に来てくれる業者{len(ps)}社を、出張費・対応する車いす・個人宅対応・営業時間で比べられます。パンク修理やタイヤ交換の料金の目安と、最終確認日つきの連絡先をまとめました。",
+            "h1": f"{city}の車いす出張修理（自宅まで来てくれる業者）",
+            "updated": max(p.get("last_verified_at") or "" for p in ps) or None,
+            "crumbs": [["地域から探す", "/repair/"], [pref, f"/repair/{c['pref_slug']}/"], [city, f"/repair/{c['pref_slug']}/{c['city_slug']}/"]]}
+    return meta, body
+
+
+def pref_page(pf, all_cities):
+    pref = pf["prefecture"]
+    ps = sorted(pf["providers"], key=lambda p: (not p["whole_prefecture"], p["name"]))
+    whole = [p for p in ps if p["whole_prefecture"]]
+    cities = [x for x in all_cities if x["prefecture"] == pref]
+    cl = "".join(f'<li><a href="/repair/{x["pref_slug"]}/{x["city_slug"]}/">{E(x["city"])}</a>（{len(x["providers"])}社）</li>' for x in cities)
+
+    def cov(p):
+        if p["whole_prefecture"]:
+            return f"{E(pref)}全域"
+        cs = p["cities"]
+        return E("、".join(cs[:12])) + (f" ほか{len(cs) - 12}市区町村" if len(cs) > 12 else "")
+    cards = "".join(card(dict(p, area_reason="対応地域：" + cov(p)), local=False) for p in ps)
+    body = f'''<div class="answer">
+<p><strong>{E(pref)}で車いすの出張修理をしている業者は、確認できた範囲で{len(ps)}社です。</strong></p>
+<p>うち{E(pref)}全域を対応地域にしているのは{len(whole)}社です。ほかの業者は対応する市区町村が決まっているので、ご自宅が入っているか各社の欄で確かめてください。</p>
+</div>
+<p class="note">各社の公式サイトで確認した情報です。対応できるか、料金、来られる日時は、必ず直接確かめてください。</p>
+{f"<h2>市区町村から探す</h2><ul>{cl}</ul>" if cl else ""}
+<h2>{E(pref)}の車いす出張修理業者</h2>
+{cards}
+<h2>壊れたときに最初にすること</h2>
+<p>介護保険でレンタルしている車いすはレンタル事業者へ、補装具で作った車いすは市区町村の窓口へ先に連絡します。くわしくは<a href="/guide/broken-wheelchair/">車いすが壊れたときの依頼先</a>へ。</p>
+'''
+    meta = {"path": f"/repair/{pf['pref_slug']}/",
+            "title": f"{pref}の車いす出張修理｜自宅に来てくれる{len(ps)}社",
+            "desc": f"{pref}で車いす（車椅子）の出張修理をしている業者{len(ps)}社を、対応地域・出張費・対応する車いす・営業時間で比べられます。市区町村別のページと、最終確認日つきの連絡先をまとめました。",
+            "h1": f"{pref}の車いす出張修理（自宅まで来てくれる業者）",
+            "updated": max(p.get("last_verified_at") or "" for p in ps),
+            "crumbs": [["地域から探す", "/repair/"], [pref, f"/repair/{pf['pref_slug']}/"]]}
+    return meta, body
+
+
+def index_page(data):
+    pl = ""
+    for pf in data["prefectures"]:
+        cs = "、".join(f'<a href="/repair/{c["pref_slug"]}/{c["city_slug"]}/">{E(c["city"])}</a>' for c in data["cities"] if c["prefecture"] == pf["prefecture"])
+        pl += f'<li><a href="/repair/{pf["pref_slug"]}/">{E(pf["prefecture"])}</a>（{len(pf["providers"])}社）{"：" + cs if cs else ""}</li>'
+    body = f'''<div class="answer"><p><strong>お住まいの地域から、自宅まで来てくれる車いす修理業者を探せます。</strong></p>
+<p>いまは東京都・千葉県・神奈川県・埼玉県の業者を掲載しています。地域は順に増やします。</p></div>
+<h2>都道府県・市区町村から探す</h2><ul>{pl}</ul>
+<h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/repair/brake/">ブレーキが効かない</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
+'''
+    meta = {"path": "/repair/", "title": "車いすの出張修理を地域から探す｜東京・千葉・神奈川・埼玉",
+            "desc": "車いす（車椅子）を自宅まで修理に来てくれる業者を、都道府県・市区町村から探せます。出張費・対応する車いす・個人宅対応・営業時間を、各社の公式サイトで確認した日付つきでまとめています。",
+            "h1": "車いすの出張修理を地域から探す", "updated": data["generated_at"], "crumbs": [["地域から探す", "/repair/"]]}
+    return meta, body
+
+
+def pages(root):
+    path = pathlib.Path(root) / "data" / "areas.json"
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text())
+    out = [index_page(data)]
+    out += [pref_page(p, data["cities"]) for p in data["prefectures"]]
+    out += [city_page(c, data["cities"]) for c in data["cities"]]
+    return out

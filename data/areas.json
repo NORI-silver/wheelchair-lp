@@ -1,0 +1,6674 @@
+{
+ "generated_at": "2026-11-03",
+ "cities": [
+  {
+   "prefecture": "千葉県",
+   "city": "松戸市",
+   "pref_slug": "chiba",
+   "city_slug": "matsudo",
+   "providers": [
+    {
+     "slug": "cycle119",
+     "name": "サイクルレスキュー（cycle119.com）",
+     "website": "https://cycle119.com/",
+     "phone": "080-7715-5484",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 9:00-17:00（土日祝定休・不定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市 / 千葉県市川市 / 千葉県鎌ケ谷市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア色分けで500/1,000/1,500円（市区町村との対応は地図のみ）"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://cycle119.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県松戸市を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "A",
+      "min": 0,
+      "max": 0
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県松戸市を明記"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "koganehara",
+     "name": "小金原サイクル（有限会社相馬）",
+     "website": "https://kac-matsudo.net/",
+     "phone": "0120-43-4715",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": "7:00-19:00（水曜・第3日曜定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "松戸・流山・柏の指定地区は無料、他は別途"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://kac-matsudo.net/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県松戸市を明記"
+    },
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    },
+    {
+     "slug": "jinsai",
+     "name": "株式会社仁済",
+     "website": "https://anzen-seibishi.org/information/list",
+     "phone": "047-363-0651",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": null,
+     "area_text": null,
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "車いす安全整備士"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://anzen-seibishi.org/information/list",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "所在地が同じ市区町村（対応地域は未登録）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "千葉県",
+   "city": "柏市",
+   "pref_slug": "chiba",
+   "city_slug": "kashiwa",
+   "providers": [
+    {
+     "slug": "cycle119",
+     "name": "サイクルレスキュー（cycle119.com）",
+     "website": "https://cycle119.com/",
+     "phone": "080-7715-5484",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 9:00-17:00（土日祝定休・不定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市 / 千葉県市川市 / 千葉県鎌ケ谷市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア色分けで500/1,000/1,500円（市区町村との対応は地図のみ）"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://cycle119.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県柏市を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "A",
+      "min": 0,
+      "max": 0
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県柏市を明記"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "koganehara",
+     "name": "小金原サイクル（有限会社相馬）",
+     "website": "https://kac-matsudo.net/",
+     "phone": "0120-43-4715",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": "7:00-19:00（水曜・第3日曜定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "松戸・流山・柏の指定地区は無料、他は別途"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://kac-matsudo.net/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県柏市を明記"
+    },
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    },
+    {
+     "slug": "hasirin",
+     "name": "有限会社 橋本輪業",
+     "website": "https://hasirin.com/repair.html",
+     "phone": "04-7164-2255",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "email"
+     ],
+     "hours_text": null,
+     "area_text": "当店が定めた地域（要問合せ）",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [
+      {
+       "code": "frame",
+       "label": "フレーム（溶接・歪み）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://hasirin.com/repair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "所在地が同じ市区町村（対応地域は未登録）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "千葉県",
+   "city": "流山市",
+   "pref_slug": "chiba",
+   "city_slug": "nagareyama",
+   "providers": [
+    {
+     "slug": "cycle119",
+     "name": "サイクルレスキュー（cycle119.com）",
+     "website": "https://cycle119.com/",
+     "phone": "080-7715-5484",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 9:00-17:00（土日祝定休・不定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市 / 千葉県市川市 / 千葉県鎌ケ谷市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア色分けで500/1,000/1,500円（市区町村との対応は地図のみ）"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://cycle119.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県流山市を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "A",
+      "min": 0,
+      "max": 0
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県流山市を明記"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "koganehara",
+     "name": "小金原サイクル（有限会社相馬）",
+     "website": "https://kac-matsudo.net/",
+     "phone": "0120-43-4715",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": "7:00-19:00（水曜・第3日曜定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "松戸・流山・柏の指定地区は無料、他は別途"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://kac-matsudo.net/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県流山市を明記"
+    },
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    },
+    {
+     "slug": "ohden-nagareyama",
+     "name": "オーデン株式会社 流山センター",
+     "website": "https://anzen-seibishi.org/information/list",
+     "phone": "090-4835-5630",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": null,
+     "area_text": null,
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "車いす安全整備士"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://anzen-seibishi.org/information/list",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "所在地が同じ市区町村（対応地域は未登録）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "千葉県",
+   "city": "鎌ケ谷市",
+   "pref_slug": "chiba",
+   "city_slug": "kamagaya",
+   "providers": [
+    {
+     "slug": "cycle119",
+     "name": "サイクルレスキュー（cycle119.com）",
+     "website": "https://cycle119.com/",
+     "phone": "080-7715-5484",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 9:00-17:00（土日祝定休・不定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市 / 千葉県市川市 / 千葉県鎌ケ谷市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア色分けで500/1,000/1,500円（市区町村との対応は地図のみ）"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://cycle119.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県鎌ケ谷市を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "B",
+      "min": 5000,
+      "max": 5000
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に千葉県鎌ケ谷市を明記"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "千葉県全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "東京都",
+   "city": "中野区",
+   "pref_slug": "tokyo",
+   "city_slug": "nakano",
+   "providers": [
+    {
+     "slug": "cyclelab",
+     "name": "CYCLE Lab（サイクルラボ）",
+     "website": "https://cyclelab-repair.com/#contact",
+     "phone": null,
+     "form_url": "https://cyclelab-repair.com/#contact",
+     "line_url": "https://page.line.me/zmr8843a",
+     "contact_methods": [
+      "web_form",
+      "line"
+     ],
+     "hours_text": "9:00-19:00",
+     "area_text": "東京都中野区 / 東京都墨田区 / 神奈川県横浜市・川崎市 / その他全国出張所",
+     "tax_basis": "税込",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "same_day",
+       "label": "当日対応",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "1kmあたり220円(税込)"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.cyclelab-repair.com/tokyo-pref",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都中野区を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "D",
+      "min": 10000,
+      "max": 10000
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都中野区を明記"
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    },
+    {
+     "slug": "cycleq9",
+     "name": "サイクルQ9",
+     "website": "https://anzen-seibishi.org/information/list",
+     "phone": "090-1287-7891",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone"
+     ],
+     "hours_text": null,
+     "area_text": null,
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "車いす安全整備士"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://anzen-seibishi.org/information/list",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "所在地が同じ市区町村（対応地域は未登録）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "東京都",
+   "city": "墨田区",
+   "pref_slug": "tokyo",
+   "city_slug": "sumida",
+   "providers": [
+    {
+     "slug": "cyclelab",
+     "name": "CYCLE Lab（サイクルラボ）",
+     "website": "https://cyclelab-repair.com/#contact",
+     "phone": null,
+     "form_url": "https://cyclelab-repair.com/#contact",
+     "line_url": "https://page.line.me/zmr8843a",
+     "contact_methods": [
+      "web_form",
+      "line"
+     ],
+     "hours_text": "9:00-19:00",
+     "area_text": "東京都中野区 / 東京都墨田区 / 神奈川県横浜市・川崎市 / その他全国出張所",
+     "tax_basis": "税込",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "same_day",
+       "label": "当日対応",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "1kmあたり220円(税込)"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.cyclelab-repair.com/tokyo-pref",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都墨田区を明記"
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "B",
+      "min": 5000,
+      "max": 5000
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都墨田区を明記"
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "東京都",
+   "city": "板橋区",
+   "pref_slug": "tokyo",
+   "city_slug": "itabashi",
+   "providers": [
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "C",
+      "min": 7500,
+      "max": 7500
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都板橋区を明記"
+    },
+    {
+     "slug": "minikojo",
+     "name": "出張修理ミニ工場",
+     "website": "https://www.me-factory.com/bic001a.html",
+     "phone": "090-1501-9598",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": "電話受付 10:00-17:00",
+     "area_text": "東京都練馬区 / 東京都板橋区 / 埼玉県和光市 / 埼玉県朝霞市 / 埼玉県新座市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "有料地域のみ 1台4,200円/2台2,800円/3台1,400円/4台以上0円"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.me-factory.com/bic001a.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都板橋区を明記"
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  },
+  {
+   "prefecture": "東京都",
+   "city": "練馬区",
+   "pref_slug": "tokyo",
+   "city_slug": "nerima",
+   "providers": [
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": {
+      "zone": "D",
+      "min": 10000,
+      "max": 10000
+     },
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都練馬区を明記"
+    },
+    {
+     "slug": "minikojo",
+     "name": "出張修理ミニ工場",
+     "website": "https://www.me-factory.com/bic001a.html",
+     "phone": "090-1501-9598",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": "電話受付 10:00-17:00",
+     "area_text": "東京都練馬区 / 東京都板橋区 / 埼玉県和光市 / 埼玉県朝霞市 / 埼玉県新座市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "有料地域のみ 1台4,200円/2台2,800円/3台1,400円/4台以上0円"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.me-factory.com/bic001a.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "対応地域に東京都練馬区を明記"
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    }
+   ],
+   "to_confirm": [
+    {
+     "slug": "dcart",
+     "name": "D-CART",
+     "website": "https://www.d-cart.jp/cart_repair/index.html",
+     "phone": "045-623-4680",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": null,
+     "area_text": "関東全域 / 静岡・山梨(一部相談)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "other_store",
+       "label": "他店購入品対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "引上げ・返却込み 神奈川17,000/東京18,000/千葉・埼玉20,000/茨城22,000/栃木・群馬24,000円"
+     ],
+     "price_items": [],
+     "credentials": [
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.d-cart.jp/cart_repair/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "東京都全域が対応地域"
+    },
+    {
+     "slug": "whill",
+     "name": "WHILL株式会社",
+     "website": "https://whill.inc/jp/support/repair",
+     "phone": "0120-696-527",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 平日9:00-18:00",
+     "area_text": "全国",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "mobility_scooter",
+       "label": "電動カート（シニアカー）",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "any_maker",
+       "label": "メーカー不問",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "pickup",
+       "label": "引き取り",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "送料は配送距離に応じる"
+     ],
+     "price_items": [
+      {
+       "item": "診断見積",
+       "repair": null,
+       "product": null,
+       "price_jpy": 16500,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "本体保証サービス加入者の場合"
+      }
+     ],
+     "credentials": [
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://whill.inc/jp/support/repair",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "area_reason": "全国対応（拠点からの距離は要確認）"
+    }
+   ],
+   "municipal_offices": [],
+   "rule": "対応地域に明記（市区町村 or 都道府県全域。一部・所在地のみは除く）・車いす対応・出張対応(明記/確認済、推定は除く)・個人宅可・最終確認90日以内が3社以上で index。うち2社以上が市区町村を名指し"
+  }
+ ],
+ "prefectures": [
+  {
+   "prefecture": "東京都",
+   "pref_slug": "tokyo",
+   "providers": [
+    {
+     "slug": "rinrinsya",
+     "name": "りんりん舎",
+     "website": "https://rinrinsya.com/%E8%BB%8A%E3%81%84%E3%81%99%E3%81%AE%E4%BF%AE%E7%90%86/",
+     "phone": "048-683-2943",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "email"
+     ],
+     "hours_text": "受付 8:00-20:00",
+     "area_text": "埼玉県内 / 東京都内(一部)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "emergency",
+       "label": "緊急対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [
+      {
+       "item": "パンク修理(自転車含む)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 1000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "〜。車いす単価は未記載"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://rinrinsya.com/%E8%BB%8A%E3%81%84%E3%81%99%E3%81%AE%E4%BF%AE%E7%90%86/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://rinrinsya.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [],
+     "whole_prefecture": true
+    },
+    {
+     "slug": "cyclelab",
+     "name": "CYCLE Lab（サイクルラボ）",
+     "website": "https://cyclelab-repair.com/#contact",
+     "phone": null,
+     "form_url": "https://cyclelab-repair.com/#contact",
+     "line_url": "https://page.line.me/zmr8843a",
+     "contact_methods": [
+      "web_form",
+      "line"
+     ],
+     "hours_text": "9:00-19:00",
+     "area_text": "東京都中野区 / 東京都墨田区 / 神奈川県横浜市・川崎市 / その他全国出張所",
+     "tax_basis": "税込",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "same_day",
+       "label": "当日対応",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "1kmあたり220円(税込)"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.cyclelab-repair.com/tokyo-pref",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "中野区",
+      "墨田区"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "千代田区",
+      "江戸川区",
+      "足立区",
+      "葛飾区",
+      "台東区",
+      "墨田区",
+      "江東区",
+      "文京区",
+      "港区",
+      "北区",
+      "荒川区",
+      "中央区",
+      "豊島区",
+      "板橋区",
+      "練馬区",
+      "中野区",
+      "杉並区",
+      "新宿区",
+      "狛江市",
+      "調布市",
+      "三鷹市",
+      "武蔵野市",
+      "西東京市",
+      "東久留米市",
+      "清瀬市",
+      "世田谷区",
+      "目黒区",
+      "品川区",
+      "大田区",
+      "東村山市",
+      "小平市",
+      "小金井市",
+      "国分寺市",
+      "府中市",
+      "国立市",
+      "立川市",
+      "東大和市",
+      "武蔵村山市",
+      "瑞穂町",
+      "羽村市",
+      "福生市",
+      "昭島市",
+      "多摩市",
+      "青梅市",
+      "日の出町",
+      "あきる野市",
+      "八王子市",
+      "奥多摩町"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [],
+     "whole_prefecture": true
+    },
+    {
+     "slug": "minikojo",
+     "name": "出張修理ミニ工場",
+     "website": "https://www.me-factory.com/bic001a.html",
+     "phone": "090-1501-9598",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": "電話受付 10:00-17:00",
+     "area_text": "東京都練馬区 / 東京都板橋区 / 埼玉県和光市 / 埼玉県朝霞市 / 埼玉県新座市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "有料地域のみ 1台4,200円/2台2,800円/3台1,400円/4台以上0円"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.me-factory.com/bic001a.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "練馬区",
+      "板橋区"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [],
+     "whole_prefecture": true
+    }
+   ],
+   "cities": [
+    "中野区",
+    "墨田区",
+    "板橋区",
+    "練馬区"
+   ]
+  },
+  {
+   "prefecture": "千葉県",
+   "pref_slug": "chiba",
+   "providers": [
+    {
+     "slug": "cycle119",
+     "name": "サイクルレスキュー（cycle119.com）",
+     "website": "https://cycle119.com/",
+     "phone": "080-7715-5484",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 9:00-17:00（土日祝定休・不定休）",
+     "area_text": "千葉県松戸市 / 千葉県流山市 / 千葉県柏市 / 千葉県市川市 / 千葉県鎌ケ谷市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "weekend",
+       "label": "土日対応",
+       "level": "no",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア色分けで500/1,000/1,500円（市区町村との対応は地図のみ）"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://cycle119.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "松戸市",
+      "流山市",
+      "柏市",
+      "市川市",
+      "鎌ケ谷市"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "流山市",
+      "松戸市",
+      "柏市",
+      "野田市",
+      "我孫子市",
+      "船橋市",
+      "八千代市",
+      "鎌ケ谷市",
+      "白井市",
+      "佐倉市",
+      "成田市",
+      "富里市",
+      "神崎町",
+      "千葉市",
+      "市原市",
+      "木更津市",
+      "館山市"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "wc88",
+     "name": "株式会社ユーエスマネジメンツ",
+     "website": "https://www.wheelchair88.co.jp/rental/chiba/",
+     "phone": "03-6907-3339",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "電話 10:00-17:00（水・日休）",
+     "area_text": "千葉県全域(出張貸出) / 東京都 / エリア外相談",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [],
+     "credentials": [
+      "介護保険指定事業者",
+      "製品補償・代替機サービス",
+      "メーカー認定・正規代理店"
+     ],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.wheelchair88.co.jp/rental/chiba/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [],
+     "whole_prefecture": true
+    }
+   ],
+   "cities": [
+    "松戸市",
+    "柏市",
+    "流山市",
+    "鎌ケ谷市"
+   ]
+  },
+  {
+   "prefecture": "神奈川県",
+   "pref_slug": "kanagawa",
+   "providers": [
+    {
+     "slug": "cyclelab",
+     "name": "CYCLE Lab（サイクルラボ）",
+     "website": "https://cyclelab-repair.com/#contact",
+     "phone": null,
+     "form_url": "https://cyclelab-repair.com/#contact",
+     "line_url": "https://page.line.me/zmr8843a",
+     "contact_methods": [
+      "web_form",
+      "line"
+     ],
+     "hours_text": "9:00-19:00",
+     "area_text": "東京都中野区 / 東京都墨田区 / 神奈川県横浜市・川崎市 / その他全国出張所",
+     "tax_basis": "税込",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "same_day",
+       "label": "当日対応",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "1kmあたり220円(税込)"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.cyclelab-repair.com/tokyo-pref",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "横浜市",
+      "川崎市"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "横須賀市",
+      "秦野市",
+      "厚木市"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "bfs",
+     "name": "バイシクルフィールドサービス株式会社",
+     "website": "https://bfserv.co.jp/",
+     "phone": "03-6321-9997",
+     "form_url": "https://bfserv.co.jp/",
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form"
+     ],
+     "hours_text": "10:00-19:00（定休日記載なし）",
+     "area_text": "東京都(品川・港・渋谷・目黒・大田・世田谷・千代田・中央・江東区ほか) / 神奈川県川崎市 / 神奈川県横浜市 / 近隣",
+     "tax_basis": "税込・出張費込み",
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "caster",
+       "label": "キャスター",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "corporate",
+       "label": "法人（施設・病院）対応",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "料金に込み"
+     ],
+     "price_items": [
+      {
+       "item": "パンク修理 片側1本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5900,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "2カ所目以降+300円"
+      },
+      {
+       "item": "パンク修理 両側2本",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 7900,
+       "unit": "両側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "チューブ交換 片側1本(英式)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 6800,
+       "unit": "片側",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "タイヤ・チューブ交換 1台分(一般サイズ英式)",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 14800,
+       "unit": "1台",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "ノーパンクチューブ2本",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22800,
+       "unit": "2本",
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": null
+      },
+      {
+       "item": "メンテナンス",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 2200,
+       "unit": null,
+       "size": null,
+       "tax": "incl",
+       "includes_travel": true,
+       "note": "〜8,800円"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://bfserv.co.jp/area_prices/wheelchair/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://www.bfserv.com/wheelchair.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "川崎市",
+      "横浜市"
+     ],
+     "whole_prefecture": false
+    }
+   ],
+   "cities": []
+  },
+  {
+   "prefecture": "埼玉県",
+   "pref_slug": "saitama",
+   "providers": [
+    {
+     "slug": "rinrinsya",
+     "name": "りんりん舎",
+     "website": "https://rinrinsya.com/%E8%BB%8A%E3%81%84%E3%81%99%E3%81%AE%E4%BF%AE%E7%90%86/",
+     "phone": "048-683-2943",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "email"
+     ],
+     "hours_text": "受付 8:00-20:00",
+     "area_text": "埼玉県内 / 東京都内(一部)",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "other_aids",
+       "label": "その他福祉用具",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "emergency",
+       "label": "緊急対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [],
+     "price_items": [
+      {
+       "item": "パンク修理(自転車含む)",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 1000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": "〜。車いす単価は未記載"
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://rinrinsya.com/%E8%BB%8A%E3%81%84%E3%81%99%E3%81%AE%E4%BF%AE%E7%90%86/",
+       "retrieved_at": "2026-11-02"
+      },
+      {
+       "url": "https://rinrinsya.com/",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [],
+     "whole_prefecture": true
+    },
+    {
+     "slug": "ohden",
+     "name": "オーデン株式会社",
+     "website": "https://www.ccar.tv/unit_price/index.html",
+     "phone": "03-5823-4888",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "email",
+      "fax"
+     ],
+     "hours_text": null,
+     "area_text": "東京都千代田区 / 東京都江戸川区 / 東京都足立区 / 東京都葛飾区 / 千葉県流山市 / 千葉県松戸市 / 千葉県柏市 / 千葉県野田市 / 千葉県我孫子市 / 埼玉県三郷市 / 埼玉県吉川市 / 埼玉県八潮市 / 茨城県取手市 / 茨城県守谷市 / 東京都台東区 / 東京都墨田区 / 東京都江東区 / 東京都文京区 / 東京都港区 / 千葉県船橋市 / 千葉県八千代市 / 千葉県鎌ケ谷市 / 千葉県白井市 / 埼玉県草加市 / 埼玉県越谷市 / 埼玉県春日部市 / 埼玉県川口市 / 茨城県牛久市 / 茨城県龍ケ崎市 / 茨城県つくばみらい市 / 茨城県坂東市 / 茨城県常総市 / 東京都北区 / 東京都荒川区 / 東京都中央区 / 東京都豊島区 / 東京都板橋区 / 千葉県佐倉市 / 千葉県成田市 / 千葉県富里市 / 千葉県神崎町 / 埼玉県さいたま市 / 埼玉県加須市 / 埼玉県北足立郡伊奈町 / 茨城県古河市 / 茨城県土浦市 / 茨城県つくば市 / 茨城県稲敷市 / 茨城県阿見町 / 東京都練馬区 / 東京都中野区 / 東京都杉並区 / 東京都新宿区 / 東京都狛江市 / 東京都調布市 / 東京都三鷹市 / 東京都武蔵野市 / 東京都西東京市 / 東京都東久留米市 / 東京都清瀬市 / 千葉県千葉市 / 埼玉県上尾市 / 埼玉県羽生市 / 埼玉県北本市 / 埼玉県富士見市 / 茨城県下妻市 / 東京都世田谷区 / 東京都目黒区 / 東京都品川区 / 東京都大田区 / 東京都東村山市 / 東京都小平市 / 東京都小金井市 / 東京都国分寺市 / 東京都府中市 / 千葉県市原市 / 埼玉県川越市 / 埼玉県狭山市 / 埼玉県東松山市 / 埼玉県行田市 / 茨城県石岡市 / 茨城県かすみがうら市 / 茨城県小美玉市 / 茨城県行方市 / 茨城県結城市 / 茨城県筑西市 / 栃木県小山市 / 栃木県栃木市 / 栃木県鹿沼市 / 栃木県佐野市 / 群馬県館林市 / 東京都国立市 / 東京都立川市 / 東京都東大和市 / 東京都武蔵村山市 / 東京都瑞穂町 / 東京都羽村市 / 東京都福生市 / 東京都昭島市 / 東京都多摩市 / 東京都青梅市 / 東京都日の出町 / 東京都あきる野市 / 東京都八王子市 / 千葉県木更津市 / 埼玉県本庄市 / 茨城県水戸市 / 栃木県宇都宮市 / 群馬県伊勢崎市 / 群馬県太田市 / 東京都奥多摩町 / 千葉県館山市 / 埼玉県秩父市 / 栃木県矢板市 / 群馬県高崎市 / 群馬県前橋市 / 神奈川県横須賀市 / 神奈川県秦野市 / 神奈川県厚木市 / 上記以外（相談）",
+     "tax_basis": "修理・部品は非課税",
+     "products": [
+      {
+       "code": "electric_wheelchair",
+       "label": "電動車いす",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "repairs": [
+      {
+       "code": "battery",
+       "label": "バッテリー",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "brake",
+       "label": "ブレーキ",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "electrical",
+       "label": "電装（コントローラ・配線）",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "motor",
+       "label": "モーター",
+       "level": "no",
+       "evidence": "inferred"
+      },
+      {
+       "code": "puncture",
+       "label": "パンク修理",
+       "level": "yes",
+       "evidence": null
+      },
+      {
+       "code": "tire",
+       "label": "タイヤ交換",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "conditions": [
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "エリア別 0/5,000/7,500/10,000/12,500/15,000/17,500円（別途消費税）"
+     ],
+     "price_items": [
+      {
+       "item": "チューブ交換 20-24インチ 片側",
+       "repair": "puncture",
+       "product": null,
+       "price_jpy": 5500,
+       "unit": "片側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "エアタイヤ&チューブ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 22000,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ノーパンクタイヤ交換 20-24インチ 両側",
+       "repair": "tire",
+       "product": null,
+       "price_jpy": 24200,
+       "unit": "両側",
+       "size": "20-24インチ",
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "ブレーキワイヤ交換 1本",
+       "repair": "brake",
+       "product": null,
+       "price_jpy": 4400,
+       "unit": "1本",
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      },
+      {
+       "item": "安全点検スタンダード38項目",
+       "repair": "adjustment",
+       "product": null,
+       "price_jpy": 10000,
+       "unit": null,
+       "size": null,
+       "tax": null,
+       "includes_travel": null,
+       "note": null
+      }
+     ],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.ccar.tv/unit_price/index.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "三郷市",
+      "吉川市",
+      "八潮市",
+      "草加市",
+      "越谷市",
+      "春日部市",
+      "川口市",
+      "さいたま市",
+      "加須市",
+      "北足立郡伊奈町",
+      "上尾市",
+      "羽生市",
+      "北本市",
+      "富士見市",
+      "川越市",
+      "狭山市",
+      "東松山市",
+      "行田市",
+      "本庄市",
+      "秩父市"
+     ],
+     "whole_prefecture": false
+    },
+    {
+     "slug": "minikojo",
+     "name": "出張修理ミニ工場",
+     "website": "https://www.me-factory.com/bic001a.html",
+     "phone": "090-1501-9598",
+     "form_url": null,
+     "line_url": null,
+     "contact_methods": [
+      "phone",
+      "web_form",
+      "line"
+     ],
+     "hours_text": "電話受付 10:00-17:00",
+     "area_text": "東京都練馬区 / 東京都板橋区 / 埼玉県和光市 / 埼玉県朝霞市 / 埼玉県新座市",
+     "tax_basis": null,
+     "products": [
+      {
+       "code": "manual_wheelchair",
+       "label": "手動車いす",
+       "level": "yes",
+       "evidence": "inferred"
+      }
+     ],
+     "repairs": [],
+     "conditions": [
+      {
+       "code": "carry_in",
+       "label": "持ち込み",
+       "level": "no",
+       "evidence": null
+      },
+      {
+       "code": "individual",
+       "label": "個人宅・個人客対応",
+       "level": "yes",
+       "evidence": "inferred"
+      },
+      {
+       "code": "onsite",
+       "label": "出張修理",
+       "level": "yes",
+       "evidence": null
+      }
+     ],
+     "area_travel_fee": null,
+     "travel_fee_notes": [
+      "有料地域のみ 1台4,200円/2台2,800円/3台1,400円/4台以上0円"
+     ],
+     "price_items": [],
+     "credentials": [],
+     "last_verified_at": "2026-11-02",
+     "sources": [
+      {
+       "url": "https://www.me-factory.com/bic001a.html",
+       "retrieved_at": "2026-11-02"
+      }
+     ],
+     "cities": [
+      "和光市",
+      "朝霞市",
+      "新座市"
+     ],
+     "whole_prefecture": false
+    }
+   ],
+   "cities": []
+  }
+ ]
+}

@@ -3,6 +3,7 @@
 使い方: python3 tools/build.py
 """
 import json,sys,pathlib
+sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 BASE="https://wheelchair.shiokonbu.com"
 def jdate(d):
     y,mo,da=d.split("-")
@@ -56,6 +57,13 @@ def build():
         out.write_text(wrap(m,body))
         if not m.get("noindex"):
             urls.append((m["path"],m["updated"]))
+        print("built",out.relative_to(root))
+    import areas
+    for m,body in areas.pages(root):
+        out=root/m["path"].strip("/")/"index.html"
+        out.parent.mkdir(parents=True,exist_ok=True)
+        out.write_text(wrap(m,body))
+        urls.append((m["path"],m["updated"]))
         print("built",out.relative_to(root))
     sm=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm+=[f"  <url><loc>{BASE}{u}</loc><lastmod>{d}</lastmod></url>" for u,d in urls]
