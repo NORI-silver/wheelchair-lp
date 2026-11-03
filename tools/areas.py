@@ -151,14 +151,24 @@ def index_page(data):
     for pf in data["prefectures"]:
         cs = "、".join(f'<a href="/repair/{c["pref_slug"]}/{c["city_slug"]}/">{E(c["city"])}</a>' for c in data["cities"] if c["prefecture"] == pf["prefecture"])
         pl += f'<li><a href="/repair/{pf["pref_slug"]}/">{E(pf["prefecture"])}</a>（{len(pf["providers"])}社）{"：" + cs if cs else ""}</li>'
-    body = f'''<div class="answer"><p><strong>お住まいの地域から、自宅まで来てくれる車いす修理業者を探せます。</strong></p>
-<p>いまは東京都・千葉県・神奈川県・埼玉県の業者を掲載しています。地域は順に増やします。</p></div>
-<h2>都道府県・市区町村から探す</h2><ul>{pl}</ul>
+    body = f'''<div class="answer"><p><strong>近くで車いす（車椅子）の修理先を探すなら、まずお住まいの都道府県・市区町村を選んでください。</strong></p>
+<p>自宅への出張対応地域・出張費・対応する車いすを比べ、各社の電話・公式サイトから問い合わせできます。掲載地域は東京都・千葉県・神奈川県・埼玉県です。</p></div>
+<p class="note">現在地からの距離順や、当日の空き状況を表示する一覧ではありません。近くに拠点があるかだけでなく、自宅が出張対応地域に入るかを確認してください。掲載地域以外の方は<a href="/guide/broken-wheelchair/">車いすが壊れたときの依頼先</a>をご覧ください。</p>
+<a class="cta" href="#areas">近くの出張修理業者を地域から探す</a>
+<h2 id="areas">お住まいの都道府県・市区町村を選ぶ</h2><ul>{pl}</ul>
+<h2>修理を問い合わせるまでの3ステップ</h2>
+<ol>
+<li><strong>自宅の地域を選ぶ。</strong>市区町村が一覧になければ、都道府県ページで各社の対応地域を確認してください。</li>
+<li><strong>条件を比べる。</strong>個人宅への出張、手動・電動の対応、修理内容、出張費を各社の欄で確認します。「要確認」の項目は直接問い合わせてください。</li>
+<li><strong>電話・公式サイトから相談する。</strong>メーカー・機種名、故障の症状、市区町村、希望日時を伝え、対応可否・修理代と出張費の総額・来られる日時を確かめてから依頼してください。</li>
+</ol>
+<p>出張対応地域や料金の条件は各社で異なります。たとえば<a href="https://bfserv.co.jp/area_prices/wheelchair/">バイシクルフィールドサービスの公式料金表</a>と<a href="https://www.ccar.tv/unit_price/index.html">オーデンの公式料金表</a>で、それぞれの条件を確認できます（2026年11月3日確認）。</p>
+<p>依頼先に迷う場合は<a href="/guide/broken-wheelchair/">入手方法別の最初の連絡先</a>、費用を確認したい場合は<a href="/guide/repair-cost/">車いすの修理費用</a>をご覧ください。</p>
 <h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/repair/brake/">ブレーキが効かない</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
 '''
-    meta = {"path": "/repair/", "title": "車いすの出張修理を地域から探す｜東京・千葉・神奈川・埼玉",
-            "desc": "車いす（車椅子）を自宅まで修理に来てくれる業者を、都道府県・市区町村から探せます。出張費・対応する車いす・個人宅対応・営業時間を、各社の公式サイトで確認した日付つきでまとめています。",
-            "h1": "車いすの出張修理を地域から探す", "updated": data["generated_at"], "crumbs": [["地域から探す", "/repair/"]]}
+    meta = {"path": "/repair/", "title": "近くの車いす修理・出張修理を探す｜東京・千葉・神奈川・埼玉",
+            "desc": "近くの車いす（車椅子）修理先を探す方へ。東京・千葉・神奈川・埼玉の出張修理業者を地域から選び、対応する車いす・修理内容・出張費・個人宅対応を確認。各社の電話・公式サイトから問い合わせできます。",
+            "h1": "近くの車いす修理・出張修理を地域から探す", "updated": max(data["generated_at"], "2026-11-03"), "crumbs": [["地域から探す", "/repair/"]]}
     return meta, body
 
 
