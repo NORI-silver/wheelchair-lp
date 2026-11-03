@@ -26,3 +26,7 @@ details{border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin:8
 summary{font-weight:700;cursor:pointer}
 footer.site{border-top:1px solid var(--line);margin-top:48px;padding:20px 0 40px;font-size:.8rem;color:var(--muted)}
 .sources{font-size:.85rem}
+.provider{border:1px solid var(--line);border-radius:10px;padding:4px 16px 8px;margin:16px 0;background:var(--card)}
+.provider h3{margin:14px 0 2px}
+.provider th{width:34%;white-space:nowrap}
+@media (max-width:480px){.provider th{white-space:normal}}

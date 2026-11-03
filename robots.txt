@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /content/
 Disallow: /tools/
 Disallow: /docs/
+Disallow: /data/
 Allow: /
 Sitemap: https://wheelchair.shiokonbu.com/sitemap.xml
