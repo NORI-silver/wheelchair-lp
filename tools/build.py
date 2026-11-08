@@ -41,6 +41,14 @@ def wrap(m,body):
 <p class="updated">最終更新：{jdate(m["updated"])}</p>
 {body}
 </main>
+<nav class="wrap sitenav" aria-label="サイト内のページ">
+<h2>症状・地域から探す</h2>
+<ul>
+<li><a href="/repair/">近くの出張修理を地域から探す</a>（<a href="/repair/tokyo/">東京</a>・<a href="/repair/chiba/">千葉</a>・<a href="/repair/kanagawa/">神奈川</a>・<a href="/repair/saitama/">埼玉</a>）</li>
+<li><a href="/repair/puncture/">パンク修理・タイヤ交換</a> ／ <a href="/repair/caster/">キャスター（前輪）</a> ／ <a href="/repair/brake/">ブレーキ</a> ／ <a href="/repair/electric/">電動車いす</a></li>
+<li><a href="/guide/broken-wheelchair/">どこに頼む？</a> ／ <a href="/guide/repair-cost/">修理費用</a> ／ <a href="/guide/maintenance/">点検・メンテナンス</a> ／ <a href="/guide/hosogu-repair/">補装具の修理</a> ／ <a href="/guide/bicycle-shop/">自転車屋さん</a></li>
+</ul>
+</nav>
 <footer class="site"><div class="wrap">
 <p>掲載している事業者の情報は、各社の公式サイトなどで確認した時点のものです。対応可否・料金・来られる日時は、必ず事業者に直接ご確認ください。誤りの訂正は運営までお知らせください。</p>
 <p>車いす修理ナビ</p>
@@ -48,19 +56,21 @@ def wrap(m,body):
 </body>
 </html>
 '''
+import re,areas
+PROV=re.compile(r"<!--providers:([a-z_,]+)-->")
 def build():
     root=pathlib.Path(__file__).resolve().parent.parent
     urls=[]
     for src in sorted((root/"content").rglob("*.html")):
         head,body=src.read_text().split("\n---\n",1)
         m=json.loads(head)
+        body=PROV.sub(lambda x: areas.providers_for(root,x.group(1).split(",")),body)
         out=root/m["path"].strip("/")/"index.html" if m["path"]!="/" else root/"index.html"
         out.parent.mkdir(parents=True,exist_ok=True)
         out.write_text(wrap(m,body))
         if not m.get("noindex"):
             urls.append((m["path"],m["updated"]))
         print("built",out.relative_to(root))
-    import areas
     for m,body in areas.pages(root):
         out=root/m["path"].strip("/")/"index.html"
         out.parent.mkdir(parents=True,exist_ok=True)
