@@ -164,7 +164,7 @@ def index_page(data):
 </ol>
 <p>出張対応地域や料金の条件は各社で異なります。たとえば<a href="https://bfserv.co.jp/area_prices/wheelchair/">バイシクルフィールドサービスの公式料金表</a>と<a href="https://www.ccar.tv/unit_price/index.html">オーデンの公式料金表</a>で、それぞれの条件を確認できます（2026年11月3日確認）。</p>
 <p>依頼先に迷う場合は<a href="/guide/broken-wheelchair/">入手方法別の最初の連絡先</a>、費用を確認したい場合は<a href="/guide/repair-cost/">車いすの修理費用</a>をご覧ください。</p>
-<h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/repair/brake/">ブレーキが効かない</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
+<h2>症状から探す</h2><ul><li><a href="/repair/puncture/">パンク修理・タイヤ交換</a></li><li><a href="/repair/caster/">キャスター（前輪）交換</a></li><li><a href="/guide/maintenance/">点検・メンテナンス</a></li><li><a href="/repair/electric/">電動車いすの修理</a></li><li><a href="/repair/brake/">ブレーキが効かない</a></li><li><a href="/guide/broken-wheelchair/">どこに頼めばいいか分からない</a></li></ul>
 '''
     meta = {"path": "/repair/", "title": "近くの車いす修理・出張修理を探す｜東京・千葉・神奈川・埼玉",
             "desc": "近くの車いす（車椅子）修理先を探す方へ。東京・千葉・神奈川・埼玉の出張修理業者を地域から選び、対応する車いす・修理内容・出張費・個人宅対応を確認。各社の電話・公式サイトから問い合わせできます。",
@@ -181,3 +181,34 @@ def pages(root):
     out += [pref_page(p, data["cities"]) for p in data["prefectures"]]
     out += [city_page(c, data["cities"]) for c in data["cities"]]
     return out
+
+
+def providers_for(root, repairs, products=None):
+    """症状ページ用：指定の修理内容（どれか）を公式サイトに明記している業者の一覧HTML。
+    本文中の <!--providers:puncture,tire--> を build.py がこれで置き換える。"""
+    path = pathlib.Path(root) / "data" / "areas.json"
+    if not path.exists():
+        return ""
+    data = json.loads(path.read_text())
+    seen = {}
+    for pf in data["prefectures"]:
+        for p in pf["providers"]:
+            q = seen.setdefault(p["slug"], dict(p, prefs=[]))
+            q["prefs"].append((pf["prefecture"], pf["pref_slug"]))
+    hit = [p for p in seen.values() if any(cap(p, "repairs", r) == "yes" for r in repairs)
+           and (not products or any(cap(p, "products", x) == "yes" for x in products))]
+    if not hit:
+        return ""
+    rows = ""
+    for p in sorted(hit, key=lambda p: p["name"]):
+        labs = "、".join(c["label"] for c in p["repairs"] if c["level"] == "yes" and c["code"] in repairs)
+        area = "・".join(f'<a href="/repair/{s}/">{E(n)}</a>' for n, s in p["prefs"])
+        contact = []
+        if p.get("phone"):
+            contact.append(f'<a href="tel:{E(p["phone"].replace("-", ""))}">{E(p["phone"])}</a>')
+        if p.get("website"):
+            contact.append(f'<a href="{E(p["website"])}" rel="nofollow noopener" target="_blank">公式サイト</a>')
+        rows += (f'<tr><td><strong>{E(p["name"])}</strong><br><span class="updated">最終確認：{E(p.get("last_verified_at") or "—")}</span></td>'
+                 f'<td>{labs}</td><td>{area}</td><td>{" ／ ".join(contact) or "要確認"}</td></tr>')
+    return (f'<div class="table"><table><tr><th>業者</th><th>記載のある作業</th><th>出張先（詳しくは地域ページ）</th><th>問い合わせ</th></tr>{rows}</table></div>'
+            '<p class="note">各社の公式サイトに作業の記載がある業者だけを載せています（掲載順は名前順）。ご自宅が対応地域に入るか、機種に対応できるか、料金と来られる日時は、必ず直接確かめてください。</p>')

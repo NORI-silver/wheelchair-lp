@@ -29,3 +29,5 @@ footer.site{border-top:1px solid var(--line);margin-top:48px;padding:20px 0 40px
 .provider h3{margin:14px 0 2px}
 .provider th{width:34%;white-space:nowrap}
 @media (max-width:480px){.provider th{white-space:normal}}
+.sitenav{margin-top:40px;font-size:.9rem}
+.sitenav ul{padding-left:1.2em}
