@@ -17,10 +17,14 @@
     var a = e.target.closest && e.target.closest("a[href]");
     if (!a) return;
     var href = a.getAttribute("href");
+    // どの事業者への送客か（提携事業者への紹介件数の照合に使う）
+    var card = a.closest(".provider");
+    var provider = card ? (card.getAttribute("data-provider") || "") : "";
+    var partner = card && card.classList.contains("partner") ? "yes" : "no";
     if (href.indexOf("tel:") === 0) {
-      gtag("event", "provider_call", {link_text: a.textContent.trim().slice(0,60), page_path: location.pathname});
+      gtag("event", "provider_call", {link_text: a.textContent.trim().slice(0,60), page_path: location.pathname, provider: provider, partner: partner});
     } else if (a.hostname && a.hostname !== location.hostname) {
-      gtag("event", "provider_site", {link_domain: a.hostname, page_path: location.pathname});
+      gtag("event", "provider_site", {link_domain: a.hostname, page_path: location.pathname, provider: provider, partner: partner});
     }
   });
 })();
