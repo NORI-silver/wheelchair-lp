@@ -22,6 +22,7 @@ def wrap(m,body):
 <meta name="google-site-verification" content="MmM3OGz9LIPxBOmE4jR8GdP4vACP_FrchZwBLT3W0sM" />
 <title>{m["title"]}</title>
 <meta name="description" content="{m["desc"]}">
+{'<meta name="robots" content="noindex">' if m.get("noindex") else ""}
 <link rel="canonical" href="{BASE}{m["path"]}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{m["title"]}">
@@ -43,7 +44,8 @@ def wrap(m,body):
 </main>
 <footer class="site"><div class="wrap">
 <p>掲載している事業者の情報は、各社の公式サイトなどで確認した時点のものです。対応可否・料金・来られる日時は、必ず事業者に直接ご確認ください。誤りの訂正は運営までお知らせください。</p>
-<p>車いす修理ナビ</p>
+<p>提携している事業者からは、紹介手数料を受け取ることがあります。提携事業者には「提携事業者（紹介手数料あり）」と表示し、掲載する情報の正確さの基準はすべての事業者で同じです。</p>
+<p>車いす修理ナビ ／ <a href="/about/">運営者情報</a> ／ <a href="/partner/">修理事業者の方へ（掲載・提携）</a></p>
 </div></footer>
 </body>
 </html>

@@ -33,6 +33,31 @@ def fee_text(p):
     return "公式サイトに記載なし（要確認）"
 
 
+PARTNER_LABEL = "提携事業者（紹介手数料あり）"
+
+
+def partner_first(ps):
+    """提携事業者を同じ一覧の先頭に出す（表示には必ず「提携事業者（紹介手数料あり）」を付ける）。"""
+    return sorted(ps, key=lambda p: not p.get("partner"))
+
+
+def partner_block(p):
+    pt = p.get("partner")
+    if not pt:
+        return ""
+    rows = []
+    if pt.get("same_day"):
+        rows.append(("当日対応", E(pt["same_day"])))
+    if pt.get("lead_time"):
+        rows.append(("来られる目安", E(pt["lead_time"])))
+    if pt.get("note"):
+        rows.append(("事業者から", E(pt["note"])))
+    extra = "".join(f"<li>{k}：{v}（事業者回答 {E(pt.get('answered_at') or '')}）</li>" for k, v in rows)
+    return (f'<p class="badge">{PARTNER_LABEL}</p>'
+            + (f"<ul>{extra}</ul>" if extra else "")
+            + '<p class="mention">電話の際は「車いす修理ナビを見た」とお伝えいただくとスムーズです。</p>')
+
+
 def card(p, local=True):
     prods = [c["label"] for c in p["products"] if c["level"] == "yes"]
     reps = [c["label"] for c in p["repairs"] if c["level"] == "yes"]
@@ -61,7 +86,8 @@ def card(p, local=True):
     body = "".join(f"<tr><th>{k}</th><td>{v}</td></tr>" for k, v in rows)
     pr = f"<p>公開されている料金の例</p><ul>{prices}</ul>" if prices else ""
     reason = f'<p class="updated">{E(p["area_reason"])}</p>' if p.get("area_reason") else ""
-    return (f'<section class="provider"><h3>{E(p["name"])}</h3>{reason}<div class="table"><table>{body}</table></div>{pr}'
+    cls = "provider partner" if p.get("partner") else "provider"
+    return (f'<section class="{cls}" data-provider="{E(p.get("slug") or "")}"><h3>{E(p["name"])}</h3>{partner_block(p)}{reason}<div class="table"><table>{body}</table></div>{pr}'
             f'<p class="updated">最終確認：{E(p.get("last_verified_at") or "—")}（<a href="{E(src or "")}" rel="nofollow noopener" target="_blank">出典</a>）</p></section>')
 
 
@@ -88,7 +114,7 @@ def city_page(c, all_cities):
 <p class="note">各社の公式サイトで確認した情報です（最終確認日は各社の欄）。対応できるか、料金、来られる日時は、必ず電話などで直接確かめてください。</p>
 
 <h2>{E(city)}に来てくれる車いす出張修理業者</h2>
-{"".join(card(p) for p in ps)}
+{"".join(card(p) for p in partner_first(ps))}
 
 <h2>ほかに対応の可能性がある業者（要確認）</h2>
 <p>対応地域や出張の可否が公式サイトだけでは確かめきれなかった業者です。</p>
@@ -115,7 +141,7 @@ def city_page(c, all_cities):
 
 def pref_page(pf, all_cities):
     pref = pf["prefecture"]
-    ps = sorted(pf["providers"], key=lambda p: (not p["whole_prefecture"], p["name"]))
+    ps = sorted(pf["providers"], key=lambda p: (not p.get("partner"), not p["whole_prefecture"], p["name"]))
     whole = [p for p in ps if p["whole_prefecture"]]
     cities = [x for x in all_cities if x["prefecture"] == pref]
     cl = "".join(f'<li><a href="/repair/{x["pref_slug"]}/{x["city_slug"]}/">{E(x["city"])}</a>（{len(x["providers"])}社）</li>' for x in cities)
