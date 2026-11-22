@@ -1,5 +1,7 @@
 # AGENTS.md — SHIOKONBU Wheelchair（wheelchair.shiokonbu.com）
 
+> どのAI（Claude・ChatGPT・Codex・Gemini・Muse）も、作業の前に `docs/ai/README.md` を読み、終わりに `docs/ai/handoff.md` へ1行残します。`GEMINI.md` もこのファイルを読み込みます。
+
 このリポジトリで作業するすべてのAI（Claude・Codex など）と人のための共通ルールです。`CLAUDE.md` はこのファイルを読み込むだけです。
 
 オーナーは Nori さん（個人）。やりとりは日本語で、やさしく短く。ファイルの編集・反映はAIが行います。
